@@ -1,0 +1,430 @@
+digraph { nodesep=0; ranksep="4:1.8:3"; root="icvpn"
+"icvpn" [label="icvpn", tooltip="icvpn", URL="http://wiki.freifunk.net/IC-VPN"];
+"icvpn_frankfurt1" [label="frankfurt1\n10.207.0.35\nAS65026", tooltip="frankfurt1 - 10.207.0.35 - AS65026", color="#dc0067", fillcolor="#dc0067", URL="http://frankfurt.freifunk.net/"];
+"icvpn_frankfurt1" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_rheinlanddev" [label="rheinlanddev\n\nAS", tooltip="rheinlanddev -  - AS", color="grey", fillcolor="grey", URL="http://rheinlanddev.freifunk.net/"];
+"icvpn_rheinlanddev" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_augsburg1_box" [ label=<<table border="0" cellborder="1">
+<tr><td bgcolor="#ccdcff" href="http://10.207.0.17.freifunk-dresden.de/" tooltip="http://10.207.0.17.freifunk-dresden.de/">Infopage</td></tr>
+<tr><td bgcolor="#00dc67" href="http://10.11.12.13/" tooltip="Netzinternes Portal">Portal: 10.11.12.13</td></tr>
+<tr><td bgcolor="#00dc67" href="http://10.11.0.17/" tooltip="Ping IP:10.11.0.17">Ping: 10.11.0.17</td></tr>
+<tr><td bgcolor="#ccdcff" href="http://10.207.0.17.freifunk-dresden.de/" tooltip="http://10.207.0.17.freifunk-dresden.de/">Networks (1)</td></tr>
+</table>>, fillcolor="#ccdcff", shape=box, color="black", tooltip="10.11.0.0/18" , URL="http://10.207.0.17.freifunk-dresden.de/"];
+"icvpn_augsburg1" -> "icvpn_augsburg1_box" [arrowhead=none];
+"icvpn_augsburg1" [label="augsburg1\n10.207.0.17\nAS65050", tooltip="augsburg1 - 10.207.0.17 - AS65050", color="#00dc67", fillcolor="#00dc67", URL="http://augsburg.freifunk.net/"];
+"icvpn_augsburg1" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_berlin1_box" [ label=<<table border="0" cellborder="1">
+<tr><td bgcolor="#ccdcff" href="http://10.207.0.5.freifunk-dresden.de/" tooltip="http://10.207.0.5.freifunk-dresden.de/">Infopage</td></tr>
+<tr><td bgcolor="#ff0000" href="http:///" tooltip="Netzinternes Portal">Portal: </td></tr>
+<tr><td bgcolor="#ff0000" href="http://104.65.23.42/" tooltip="Ping IP:104.65.23.42">Ping: 104.65.23.42</td></tr>
+<tr><td bgcolor="#ccdcff" href="http://10.207.0.5.freifunk-dresden.de/" tooltip="http://10.207.0.5.freifunk-dresden.de/">Networks (2)</td></tr>
+</table>>, fillcolor="#ccdcff", shape=box, color="black", tooltip="10.31.0.0/16, 10.36.0.0/16" , URL="http://10.207.0.5.freifunk-dresden.de/"];
+"icvpn_berlin1" -> "icvpn_berlin1_box" [arrowhead=none];
+"icvpn_berlin1" [label="berlin1\n10.207.0.5\nAS44194", tooltip="berlin1 - 10.207.0.5 - AS44194", color="#ccdcff", fillcolor="#ccdcff", URL="http://berlin.freifunk.net/"];
+"icvpn_berlin1" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_bielefeld1" [label="bielefeld1\n10.207.0.59\nAS65529", tooltip="bielefeld1 - 10.207.0.59 - AS65529", color="#dc0067", fillcolor="#dc0067", URL="http://bielefeld.freifunk.net/"];
+"icvpn_bielefeld1" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_bielefeld2_box" [ label=<<table border="0" cellborder="1">
+<tr><td bgcolor="#ffffff" href="http://no-infopage-found.freifunk-dresden.de/" tooltip="http://no-infopage-found.freifunk-dresden.de/">Infopage</td></tr>
+<tr><td bgcolor="#ff0000" href="http:///" tooltip="Netzinternes Portal">Portal: </td></tr>
+<tr><td bgcolor="#ff0000" href="http:///" tooltip="Ping IP:">Ping: </td></tr>
+<tr><td bgcolor="#ffffff" href="http://no-infopage-found.freifunk-dresden.de/" tooltip="http://no-infopage-found.freifunk-dresden.de/">Networks (119)</td></tr>
+</table>>, fillcolor="#ffffff", shape=box, color="black", tooltip="10.29.0.0/16, 10.100.0.0/23, 10.100.2.0/23, 10.100.4.0/23, 10.100.6.0/23, 10.100.12.0/22, 10.100.20.0/24, 10.100.23.0/24, 10.100.26.0/24, 10.100.27.0/24, 10.100.32.0/24, 10.100.42.0/24, 10.100.44.0/24, 10.100.51.0/24, 10.100.53.0/24, 10.100.55.0/24, 10.100.56.0/24, 10.100.69.0/24, 10.100.70.0/24, 10.100.100.0/24, 10.100.105.0/24, 10.100.110.0/24, 10.100.111.0/24, 10.100.180.0/24, 10.100.229.0/24, 10.100.248.0/24, 10.100.250.0/24, 10.100.251.0/24, 10.100.252.0/24, 10.101.0.0/23, 10.101.0.0/21, 10.101.2.0/23, 10.101.4.0/23, 10.101.6.0/23, 10.103.252.0/23, 10.103.252.0/22, 10.103.254.0/23, 172.22.0.0/16, 172.22.2.0/23, 172.22.16.0/23, 172.22.26.0/24, 172.22.35.0/24, 172.22.38.0/24, 172.22.41.0/24, 172.22.42.0/24, 172.22.53.0/24, 172.22.55.0/24, 172.22.58.0/24, 172.22.64.0/24, 172.22.65.0/24, 172.22.77.0/24, 172.22.78.0/24, 172.22.79.0/24, 172.22.80.0/22, 172.22.92.0/24, 172.22.96.0/24, 172.22.97.0/24, 172.22.98.0/24, 172.22.99.0/24, 172.22.102.0/24, 172.22.108.0/23, 172.22.112.0/24, 172.22.113.0/24, 172.22.114.0/24, 172.22.121.0/24, 172.22.129.0/24, 172.22.135.0/24, 172.22.138.0/24, 172.22.153.0/24, 172.22.166.0/24, 172.22.170.0/24, 172.22.171.0/24, 172.22.177.0/24, 172.22.187.0/24, 172.22.196.0/24, 172.22.211.0/24, 172.22.213.0/24, 172.22.214.0/24, 172.22.215.0/24, 172.22.216.0/24, 172.22.217.0/24, 172.22.218.0/24, 172.22.219.0/24, 172.22.220.0/24, 172.22.222.0/24, 172.22.223.0/24, 172.22.227.0/24, 172.22.228.0/24, 172.22.232.0/24, 172.22.239.0/24, 172.22.254.0/24, 172.23.0.0/16, 172.23.2.0/23, 172.23.12.0/24, 172.23.146.0/24, 172.23.147.0/24, 172.23.155.0/24, 172.23.156.0/24, 172.23.157.0/24, 172.23.174.0/23, 172.23.181.0/24, 172.23.182.0/24, 172.23.183.0/24, 172.23.184.0/23, 172.23.192.0/24, 172.23.194.0/23, 172.23.196.0/24, 172.23.198.0/24, 172.23.210.0/24, 172.23.212.0/24, 172.23.222.0/24, 172.23.225.0/24, 172.23.230.0/24, 172.23.231.0/24, 172.23.235.0/24, 172.23.243.0/24, 172.23.245.0/24, 172.23.252.0/24, 172.23.253.0/24" , URL="http://no-infopage-found.freifunk-dresden.de/"];
+"icvpn_bielefeld2" -> "icvpn_bielefeld2_box" [arrowhead=none];
+"icvpn_bielefeld2" [label="bielefeld2\n10.207.0.67\nAS65529", tooltip="bielefeld2 - 10.207.0.67 - AS65529", color="#ffdc67", fillcolor="#ffdc67", URL="http://bielefeld.freifunk.net/"];
+"icvpn_bielefeld2" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_bremen2" [label="bremen2\n\nAS", tooltip="bremen2 -  - AS", color="grey", fillcolor="grey", URL="http://bremen.freifunk.net/"];
+"icvpn_bremen2" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_chemnitz1_box" [ label=<<table border="0" cellborder="1">
+<tr><td bgcolor="#ccdcff" href="http://10.207.0.36.freifunk-dresden.de/" tooltip="http://10.207.0.36.freifunk-dresden.de/">Infopage</td></tr>
+<tr><td bgcolor="#00dc67" href="http://10.8.6.8/" tooltip="Netzinternes Portal">Portal: 10.8.6.8</td></tr>
+<tr><td bgcolor="#00dc67" href="http://10.8.6.6/" tooltip="Ping IP:10.8.6.6">Ping: 10.8.6.6</td></tr>
+<tr><td bgcolor="#ccdcff" href="http://10.207.0.36.freifunk-dresden.de/" tooltip="http://10.207.0.36.freifunk-dresden.de/">Networks (2)</td></tr>
+</table>>, fillcolor="#ccdcff", shape=box, color="black", tooltip="10.8.0.0/16, 10.149.0.0/16" , URL="http://10.207.0.36.freifunk-dresden.de/"];
+"icvpn_chemnitz1" -> "icvpn_chemnitz1_box" [arrowhead=none];
+"icvpn_chemnitz1" [label="chemnitz1\n10.207.0.36\nAS65053", tooltip="chemnitz1 - 10.207.0.36 - AS65053", color="#00dc67", fillcolor="#00dc67", URL="http://www.chemnitz.freifunk.net"];
+"icvpn_chemnitz1" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_dresden1_box" [ label=<<table border="0" cellborder="1">
+<tr><td bgcolor="#ccdcff" href="http://10.207.0.19.freifunk-dresden.de/" tooltip="http://10.207.0.19.freifunk-dresden.de/">Infopage</td></tr>
+<tr><td bgcolor="#00dc67" href="http://10.200.0.1/" tooltip="Netzinternes Portal">Portal: 10.200.0.1</td></tr>
+<tr><td bgcolor="#00dc67" href="http://10.200.0.1/" tooltip="Ping IP:10.200.0.1">Ping: 10.200.0.1</td></tr>
+<tr><td bgcolor="#ccdcff" href="http://10.207.0.19.freifunk-dresden.de/" tooltip="http://10.207.0.19.freifunk-dresden.de/">Networks (1)</td></tr>
+</table>>, fillcolor="#ccdcff", shape=box, color="black", tooltip="10.200.0.0/15" , URL="http://10.207.0.19.freifunk-dresden.de/"];
+"icvpn_dresden1" -> "icvpn_dresden1_box" [arrowhead=none];
+"icvpn_dresden1" [label="dresden1\n10.207.0.19\nAS65051", tooltip="dresden1 - 10.207.0.19 - AS65051", color="#00dc67", fillcolor="#00dc67", URL="http://www.ddmesh.de/"];
+"icvpn_dresden1" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_gronau2_box" [ label=<<table border="0" cellborder="1">
+<tr><td bgcolor="#ffffff" href="http://no-infopage-found.freifunk-dresden.de/" tooltip="http://no-infopage-found.freifunk-dresden.de/">Infopage</td></tr>
+<tr><td bgcolor="#ff0000" href="http:///" tooltip="Netzinternes Portal">Portal: </td></tr>
+<tr><td bgcolor="#ff0000" href="http:///" tooltip="Ping IP:">Ping: </td></tr>
+<tr><td bgcolor="#ffffff" href="http://no-infopage-found.freifunk-dresden.de/" tooltip="http://no-infopage-found.freifunk-dresden.de/">Networks (3)</td></tr>
+</table>>, fillcolor="#ffffff", shape=box, color="black", tooltip="10.244.16.0/20, 10.244.32.0/20, 10.244.48.0/20" , URL="http://no-infopage-found.freifunk-dresden.de/"];
+"icvpn_gronau2" -> "icvpn_gronau2_box" [arrowhead=none];
+"icvpn_gronau2" [label="gronau2\n10.207.0.60\nAS65526", tooltip="gronau2 - 10.207.0.60 - AS65526", color="#ffdc67", fillcolor="#ffdc67", URL="http://gronau.freifunk.net/"];
+"icvpn_gronau2" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_halle1" [label="halle1\n10.207.0.13\nAS65046", tooltip="halle1 - 10.207.0.13 - AS65046", color="#ccdcff", fillcolor="#ccdcff", URL="http://freifunk-halle.net/"];
+"icvpn_halle1" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_halle2_box" [ label=<<table border="0" cellborder="1">
+<tr><td bgcolor="#ccdcff" href="http://10.207.0.14.freifunk-dresden.de/" tooltip="http://10.207.0.14.freifunk-dresden.de/">Infopage</td></tr>
+<tr><td bgcolor="#00dc67" href="http://104.62.4.1/" tooltip="Netzinternes Portal">Portal: 104.62.4.1</td></tr>
+<tr><td bgcolor="#ff0000" href="http://104.62.4.1/" tooltip="Ping IP:104.62.4.1">Ping: 104.62.4.1</td></tr>
+<tr><td bgcolor="#ccdcff" href="http://10.207.0.14.freifunk-dresden.de/" tooltip="http://10.207.0.14.freifunk-dresden.de/">Networks (1)</td></tr>
+</table>>, fillcolor="#ccdcff", shape=box, color="black", tooltip="104.62.0.0/16" , URL="http://10.207.0.14.freifunk-dresden.de/"];
+"icvpn_halle2" -> "icvpn_halle2_box" [arrowhead=none];
+"icvpn_halle2" [label="halle2\n10.207.0.14\nAS65046", tooltip="halle2 - 10.207.0.14 - AS65046", color="#ccdcff", fillcolor="#ccdcff", URL="http://freifunk-halle.org/"];
+"icvpn_halle2" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_hamburg01" [label="hamburg01\n10.207.0.62\nAS65112", tooltip="hamburg01 - 10.207.0.62 - AS65112", color="#00dc67", fillcolor="#00dc67", URL="http://hamburg.freifunk.net"];
+"icvpn_hamburg01" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_hamburg05_box" [ label=<<table border="0" cellborder="1">
+<tr><td bgcolor="#ffffff" href="http://no-infopage-found.freifunk-dresden.de/" tooltip="http://no-infopage-found.freifunk-dresden.de/">Infopage</td></tr>
+<tr><td bgcolor="#ff0000" href="http:///" tooltip="Netzinternes Portal">Portal: </td></tr>
+<tr><td bgcolor="#ff0000" href="http:///" tooltip="Ping IP:">Ping: </td></tr>
+<tr><td bgcolor="#ffffff" href="http://no-infopage-found.freifunk-dresden.de/" tooltip="http://no-infopage-found.freifunk-dresden.de/">Networks (3)</td></tr>
+</table>>, fillcolor="#ffffff", shape=box, color="black", tooltip="10.8.24.0/24, 10.112.0.0/16, 10.116.128.0/17" , URL="http://no-infopage-found.freifunk-dresden.de/"];
+"icvpn_hamburg05" -> "icvpn_hamburg05_box" [arrowhead=none];
+"icvpn_hamburg05" [label="hamburg05\n10.207.0.65\nAS65112", tooltip="hamburg05 - 10.207.0.65 - AS65112", color="#ffdc67", fillcolor="#ffdc67", URL="http://hamburg5.freifunk.net/"];
+"icvpn_hamburg05" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_jena1_box" [ label=<<table border="0" cellborder="1">
+<tr><td bgcolor="#ffffff" href="http://no-infopage-found.freifunk-dresden.de/" tooltip="http://no-infopage-found.freifunk-dresden.de/">Infopage</td></tr>
+<tr><td bgcolor="#ff0000" href="http:///" tooltip="Netzinternes Portal">Portal: </td></tr>
+<tr><td bgcolor="#ff0000" href="http:///" tooltip="Ping IP:">Ping: </td></tr>
+<tr><td bgcolor="#ffffff" href="http://no-infopage-found.freifunk-dresden.de/" tooltip="http://no-infopage-found.freifunk-dresden.de/">Networks (1)</td></tr>
+</table>>, fillcolor="#ffffff", shape=box, color="black", tooltip="10.17.0.0/16" , URL="http://no-infopage-found.freifunk-dresden.de/"];
+"icvpn_jena1" -> "icvpn_jena1_box" [arrowhead=none];
+"icvpn_jena1" [label="jena1\n10.207.0.33\nAS65055", tooltip="jena1 - 10.207.0.33 - AS65055", color="#ffdc67", fillcolor="#ffdc67", URL="http://jena.freifunk.net/"];
+"icvpn_jena1" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_jena2" [label="jena2\n10.207.0.66\nAS65055", tooltip="jena2 - 10.207.0.66 - AS65055", color="#ccdcff", fillcolor="#ccdcff", URL="http://freifunk-jena.de/"];
+"icvpn_jena2" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_kiel1" [label="kiel1\n10.207.0.53\nAS65525", tooltip="kiel1 - 10.207.0.53 - AS65525", color="#dc0067", fillcolor="#dc0067", URL="http://kiel.freifunk.net/"];
+"icvpn_kiel1" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_kiel13" [label="kiel13\n\nAS", tooltip="kiel13 -  - AS", color="grey", fillcolor="grey", URL="http://kiel3.freifunk.net/"];
+"icvpn_kiel13" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_kiel3" [label="kiel3\n10.207.0.54\nAS65525", tooltip="kiel3 - 10.207.0.54 - AS65525", color="#ccdcff", fillcolor="#ccdcff", URL="http://freifunk.in-kiel.de/"];
+"icvpn_kiel3" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_kiel4" [label="kiel4\n\nAS", tooltip="kiel4 -  - AS", color="grey", fillcolor="grey", URL="http://kiel.freifunk.net/"];
+"icvpn_kiel4" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_koeln1" [label="koeln1\n10.207.0.57\nAS65528", tooltip="koeln1 - 10.207.0.57 - AS65528", color="#dc0067", fillcolor="#dc0067", URL="http://koeln.freifunk.net/"];
+"icvpn_koeln1" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_leipzig2_box" [ label=<<table border="0" cellborder="1">
+<tr><td bgcolor="#ccdcff" href="http://10.207.0.2.freifunk-dresden.de/" tooltip="http://10.207.0.2.freifunk-dresden.de/">Infopage</td></tr>
+<tr><td bgcolor="#00dc67" href="http://104.61.104.1/" tooltip="Netzinternes Portal">Portal: 104.61.104.1</td></tr>
+<tr><td bgcolor="#ff0000" href="http://104.61.22.1/" tooltip="Ping IP:104.61.22.1">Ping: 104.61.22.1</td></tr>
+<tr><td bgcolor="#ccdcff" href="http://10.207.0.2.freifunk-dresden.de/" tooltip="http://10.207.0.2.freifunk-dresden.de/">Networks (2)</td></tr>
+</table>>, fillcolor="#ccdcff", shape=box, color="black", tooltip="10.61.0.0/16, 104.59.246.0/24" , URL="http://10.207.0.2.freifunk-dresden.de/"];
+"icvpn_leipzig2" -> "icvpn_leipzig2_box" [arrowhead=none];
+"icvpn_leipzig2" [label="leipzig2\n10.207.0.2\nAS65041", tooltip="leipzig2 - 10.207.0.2 - AS65041", color="#ccdcff", fillcolor="#ccdcff", URL="http://leipzig.freifunk.net/"];
+"icvpn_leipzig2" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_luebeck1_box" [ label=<<table border="0" cellborder="1">
+<tr><td bgcolor="#ccdcff" href="http://10.207.0.130.freifunk-dresden.de/" tooltip="http://10.207.0.130.freifunk-dresden.de/">Infopage</td></tr>
+<tr><td bgcolor="#00dc67" href="http://10.130.0.8/" tooltip="Netzinternes Portal">Portal: 10.130.0.8</td></tr>
+<tr><td bgcolor="#00dc67" href="http://10.130.12.1/" tooltip="Ping IP:10.130.12.1">Ping: 10.130.12.1</td></tr>
+<tr><td bgcolor="#ccdcff" href="http://10.207.0.130.freifunk-dresden.de/" tooltip="http://10.207.0.130.freifunk-dresden.de/">Networks (1)</td></tr>
+</table>>, fillcolor="#ccdcff", shape=box, color="black", tooltip="10.130.0.0/16" , URL="http://10.207.0.130.freifunk-dresden.de/"];
+"icvpn_luebeck1" -> "icvpn_luebeck1_box" [arrowhead=none];
+"icvpn_luebeck1" [label="luebeck1\n10.207.0.130\nAS65052", tooltip="luebeck1 - 10.207.0.130 - AS65052", color="#00dc67", fillcolor="#00dc67", URL="http://luebeck.freifunk.net/"];
+"icvpn_luebeck1" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_luebeck2_box" [ label=<<table border="0" cellborder="1">
+<tr><td bgcolor="#ccdcff" href="http://10.207.0.131.freifunk-dresden.de/" tooltip="http://10.207.0.131.freifunk-dresden.de/">Infopage</td></tr>
+<tr><td bgcolor="#00dc67" href="http://10.130.0.8/" tooltip="Netzinternes Portal">Portal: 10.130.0.8</td></tr>
+<tr><td bgcolor="#00dc67" href="http://10.130.14.1/" tooltip="Ping IP:10.130.14.1">Ping: 10.130.14.1</td></tr>
+<tr><td bgcolor="#ccdcff" href="http://10.207.0.131.freifunk-dresden.de/" tooltip="http://10.207.0.131.freifunk-dresden.de/">Networks (3)</td></tr>
+</table>>, fillcolor="#ccdcff", shape=box, color="black", tooltip="172.22.0.0/15, 172.22.184.0/24, 172.23.208.0/23" , URL="http://10.207.0.131.freifunk-dresden.de/"];
+"icvpn_luebeck2" -> "icvpn_luebeck2_box" [arrowhead=none];
+"icvpn_luebeck2" [label="luebeck2\n10.207.0.131\nAS65052", tooltip="luebeck2 - 10.207.0.131 - AS65052", color="#00dc67", fillcolor="#00dc67", URL="http://luebeck.freifunk.net/"];
+"icvpn_luebeck2" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_nrw2" [label="nrw2\n\nAS", tooltip="nrw2 -  - AS", color="grey", fillcolor="grey", URL="http://nrw.freifunk.net/"];
+"icvpn_nrw2" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_oldenburg1_box" [ label=<<table border="0" cellborder="1">
+<tr><td bgcolor="#ffffff" href="http://no-infopage-found.freifunk-dresden.de/" tooltip="http://no-infopage-found.freifunk-dresden.de/">Infopage</td></tr>
+<tr><td bgcolor="#ff0000" href="http:///" tooltip="Netzinternes Portal">Portal: </td></tr>
+<tr><td bgcolor="#ff0000" href="http:///" tooltip="Ping IP:">Ping: </td></tr>
+<tr><td bgcolor="#ffffff" href="http://no-infopage-found.freifunk-dresden.de/" tooltip="http://no-infopage-found.freifunk-dresden.de/">Networks (1)</td></tr>
+</table>>, fillcolor="#ffffff", shape=box, color="black", tooltip="10.18.0.0/16" , URL="http://no-infopage-found.freifunk-dresden.de/"];
+"icvpn_oldenburg1" -> "icvpn_oldenburg1_box" [arrowhead=none];
+"icvpn_oldenburg1" [label="oldenburg1\n10.207.0.27\nAS65513", tooltip="oldenburg1 - 10.207.0.27 - AS65513", color="#ffdc67", fillcolor="#ffdc67", URL="http://oldenburg.freifunk.net/"];
+"icvpn_oldenburg1" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_weimar1_box" [ label=<<table border="0" cellborder="1">
+<tr><td bgcolor="#ccdcff" href="http://10.207.0.3.freifunk-dresden.de/" tooltip="http://10.207.0.3.freifunk-dresden.de/">Infopage</td></tr>
+<tr><td bgcolor="#00dc67" href="http://10.63.1.1/" tooltip="Netzinternes Portal">Portal: 10.63.1.1</td></tr>
+<tr><td bgcolor="#00dc67" href="http://10.63.52.1/" tooltip="Ping IP:10.63.52.1">Ping: 10.63.52.1</td></tr>
+<tr><td bgcolor="#ccdcff" href="http://10.207.0.3.freifunk-dresden.de/" tooltip="http://10.207.0.3.freifunk-dresden.de/">Networks (1)</td></tr>
+</table>>, fillcolor="#ccdcff", shape=box, color="black", tooltip="10.63.0.0/16" , URL="http://10.207.0.3.freifunk-dresden.de/"];
+"icvpn_weimar1" -> "icvpn_weimar1_box" [arrowhead=none];
+"icvpn_weimar1" [label="weimar1\n10.207.0.3\nAS65042", tooltip="weimar1 - 10.207.0.3 - AS65042", color="#00dc67", fillcolor="#00dc67", URL="http://wireless.subsignal.org/"];
+"icvpn_weimar1" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_weimar2" [label="weimar2\n\nAS", tooltip="weimar2 -  - AS", color="grey", fillcolor="grey", URL="http://weimar.freifunk.net/"];
+"icvpn_weimar2" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_wermelskirchen1_box" [ label=<<table border="0" cellborder="1">
+<tr><td bgcolor="#ccdcff" href="http://10.207.0.7.freifunk-dresden.de/" tooltip="http://10.207.0.7.freifunk-dresden.de/">Infopage</td></tr>
+<tr><td bgcolor="#00dc67" href="http://10.52.1.0/" tooltip="Netzinternes Portal">Portal: 10.52.1.0</td></tr>
+<tr><td bgcolor="#00dc67" href="http://10.52.1.0/" tooltip="Ping IP:10.52.1.0">Ping: 10.52.1.0</td></tr>
+<tr><td bgcolor="#ccdcff" href="http://10.207.0.7.freifunk-dresden.de/" tooltip="http://10.207.0.7.freifunk-dresden.de/">Networks (1)</td></tr>
+</table>>, fillcolor="#ccdcff", shape=box, color="black", tooltip="10.52.0.0/16" , URL="http://10.207.0.7.freifunk-dresden.de/"];
+"icvpn_wermelskirchen1" -> "icvpn_wermelskirchen1_box" [arrowhead=none];
+"icvpn_wermelskirchen1" [label="wermelskirchen1\n10.207.0.7\nAS65530", tooltip="wermelskirchen1 - 10.207.0.7 - AS65530", color="#00dc67", fillcolor="#00dc67", URL="http://wk.freifunk.net/"];
+"icvpn_wermelskirchen1" -> "icvpn" [arrowhead=none, color=blue]
+"icvpn_wuppertal1" [label="wuppertal1\n\nAS", tooltip="wuppertal1 -  - AS", color="grey", fillcolor="grey", URL="http://wuppertal.freifunk.net/"];
+"icvpn_wuppertal1" -> "icvpn" [arrowhead=none, color=blue]
+icvpn_berlin1 -> icvpn_leipzig2;
+icvpn_leipzig2 -> icvpn_berlin1;
+icvpn_hamburg05 -> icvpn_oldenburg1;
+icvpn_oldenburg1 -> icvpn_hamburg05;
+icvpn_luebeck1 -> icvpn_oldenburg1;
+icvpn_oldenburg1 -> icvpn_luebeck1;
+icvpn_rheinlanddev -> icvpn_bielefeld2;
+icvpn_bielefeld2 -> icvpn_rheinlanddev;
+icvpn_bielefeld2 -> icvpn_hamburg05;
+icvpn_hamburg05 -> icvpn_bielefeld2;
+icvpn_hamburg01 -> icvpn_leipzig2;
+icvpn_leipzig2 -> icvpn_hamburg01;
+icvpn_berlin1 -> icvpn_hamburg01;
+icvpn_hamburg01 -> icvpn_berlin1;
+icvpn_luebeck2 -> icvpn_weimar2;
+icvpn_weimar2 -> icvpn_luebeck2;
+icvpn_luebeck2 -> icvpn_oldenburg1;
+icvpn_oldenburg1 -> icvpn_luebeck2;
+icvpn_rheinlanddev -> icvpn_bielefeld1;
+icvpn_bielefeld1 -> icvpn_rheinlanddev;
+icvpn_dresden1 -> icvpn_oldenburg1;
+icvpn_oldenburg1 -> icvpn_dresden1;
+icvpn_bielefeld2 -> icvpn_hamburg01;
+icvpn_hamburg01 -> icvpn_bielefeld2;
+icvpn_berlin1 -> icvpn_luebeck2;
+icvpn_luebeck2 -> icvpn_berlin1;
+icvpn_leipzig2 -> icvpn_luebeck2;
+icvpn_luebeck2 -> icvpn_leipzig2;
+icvpn_jena1 -> icvpn_leipzig2;
+icvpn_leipzig2 -> icvpn_jena1;
+icvpn_kiel13 -> icvpn_kiel3;
+icvpn_kiel3 -> icvpn_kiel13;
+icvpn_halle1 -> icvpn_leipzig2;
+icvpn_kiel3 -> icvpn_luebeck1;
+icvpn_leipzig2 -> icvpn_halle1;
+icvpn_luebeck1 -> icvpn_kiel3;
+icvpn_koeln1 -> icvpn_leipzig2;
+icvpn_leipzig2 -> icvpn_koeln1;
+icvpn_berlin1 -> icvpn_koeln1;
+icvpn_koeln1 -> icvpn_berlin1;
+icvpn_berlin1 -> icvpn_oldenburg1;
+icvpn_oldenburg1 -> icvpn_berlin1;
+icvpn_halle1 -> icvpn_weimar1;
+icvpn_weimar1 -> icvpn_halle1;
+icvpn_kiel13 -> icvpn_luebeck2;
+icvpn_luebeck2 -> icvpn_kiel13;
+icvpn_bremen2 -> icvpn_luebeck1;
+icvpn_luebeck1 -> icvpn_bremen2;
+icvpn_kiel3 -> icvpn_oldenburg1;
+icvpn_oldenburg1 -> icvpn_kiel3;
+icvpn_bielefeld1 -> icvpn_kiel3;
+icvpn_kiel3 -> icvpn_bielefeld1;
+icvpn_berlin1 -> icvpn_halle1;
+icvpn_halle1 -> icvpn_berlin1;
+icvpn_bielefeld1 -> icvpn_halle1;
+icvpn_halle1 -> icvpn_bielefeld1;
+icvpn_bielefeld1 -> icvpn_bremen2;
+icvpn_bremen2 -> icvpn_bielefeld1;
+icvpn_augsburg1 -> icvpn_oldenburg1;
+icvpn_oldenburg1 -> icvpn_augsburg1;
+icvpn_rheinlanddev -> icvpn_wuppertal1;
+icvpn_wuppertal1 -> icvpn_rheinlanddev;
+icvpn_bremen2 -> icvpn_luebeck2;
+icvpn_luebeck2 -> icvpn_bremen2;
+icvpn_dresden1 -> icvpn_kiel4;
+icvpn_kiel4 -> icvpn_dresden1;
+icvpn_hamburg05 -> icvpn_kiel3;
+icvpn_kiel3 -> icvpn_hamburg05;
+icvpn_luebeck2 -> icvpn_weimar1;
+icvpn_weimar1 -> icvpn_luebeck2;
+icvpn_dresden1 -> icvpn_leipzig2;
+icvpn_leipzig2 -> icvpn_dresden1;
+icvpn_berlin1 -> icvpn_kiel4;
+icvpn_kiel4 -> icvpn_berlin1;
+icvpn_kiel4 -> icvpn_luebeck2;
+icvpn_luebeck2 -> icvpn_kiel4;
+icvpn_dresden1 -> icvpn_weimar2;
+icvpn_oldenburg1 -> icvpn_weimar1;
+icvpn_weimar1 -> icvpn_oldenburg1;
+icvpn_weimar2 -> icvpn_dresden1;
+icvpn_berlin1 -> icvpn_gronau2;
+icvpn_gronau2 -> icvpn_berlin1;
+icvpn_hamburg01 -> icvpn_kiel1;
+icvpn_kiel1 -> icvpn_hamburg01;
+icvpn_koeln1 -> icvpn_luebeck1;
+icvpn_luebeck1 -> icvpn_koeln1;
+icvpn_kiel1 -> icvpn_kiel3;
+icvpn_kiel3 -> icvpn_kiel1;
+icvpn_kiel4 -> icvpn_luebeck1;
+icvpn_luebeck1 -> icvpn_kiel4;
+icvpn_gronau2 -> icvpn_leipzig2;
+icvpn_leipzig2 -> icvpn_gronau2;
+icvpn_leipzig2 -> icvpn_weimar1;
+icvpn_weimar1 -> icvpn_leipzig2;
+icvpn_halle2 -> icvpn_kiel3;
+icvpn_kiel3 -> icvpn_halle2;
+icvpn_kiel1 -> icvpn_luebeck1;
+icvpn_luebeck1 -> icvpn_kiel1;
+icvpn_jena1 -> icvpn_luebeck1;
+icvpn_luebeck1 -> icvpn_jena1;
+icvpn_hamburg05 -> icvpn_luebeck1;
+icvpn_luebeck1 -> icvpn_hamburg05;
+icvpn_kiel1 -> icvpn_kiel4;
+icvpn_kiel4 -> icvpn_kiel1;
+icvpn_hamburg01 -> icvpn_luebeck1;
+icvpn_luebeck1 -> icvpn_hamburg01;
+icvpn_bielefeld1 -> icvpn_hamburg05;
+icvpn_hamburg05 -> icvpn_bielefeld1;
+icvpn_bielefeld1 -> icvpn_halle2;
+icvpn_halle2 -> icvpn_bielefeld1;
+icvpn_kiel1 -> icvpn_luebeck2;
+icvpn_luebeck2 -> icvpn_kiel1;
+icvpn_luebeck1 -> icvpn_weimar2;
+icvpn_weimar2 -> icvpn_luebeck1;
+icvpn_berlin1 -> icvpn_weimar1;
+icvpn_weimar1 -> icvpn_berlin1;
+icvpn_halle1 -> icvpn_halle2;
+icvpn_halle2 -> icvpn_halle1;
+icvpn_hamburg05 -> icvpn_kiel1;
+icvpn_kiel1 -> icvpn_hamburg05;
+icvpn_augsburg1 -> icvpn_luebeck2;
+icvpn_luebeck2 -> icvpn_augsburg1;
+icvpn_dresden1 -> icvpn_luebeck2;
+icvpn_luebeck2 -> icvpn_dresden1;
+icvpn_halle2 -> icvpn_weimar1;
+icvpn_weimar1 -> icvpn_halle2;
+icvpn_halle2 -> icvpn_leipzig2;
+icvpn_leipzig2 -> icvpn_halle2;
+icvpn_halle2 -> icvpn_luebeck1;
+icvpn_luebeck1 -> icvpn_halle2;
+icvpn_berlin1 -> icvpn_halle2;
+icvpn_halle2 -> icvpn_berlin1;
+icvpn_augsburg1 -> icvpn_jena1;
+icvpn_jena1 -> icvpn_augsburg1;
+icvpn_halle2 -> icvpn_luebeck2;
+icvpn_luebeck2 -> icvpn_halle2;
+icvpn_hamburg01 -> icvpn_luebeck2;
+icvpn_luebeck2 -> icvpn_hamburg01;
+icvpn_kiel3 -> icvpn_weimar1;
+icvpn_weimar1 -> icvpn_kiel3;
+icvpn_augsburg1 -> icvpn_weimar1;
+icvpn_weimar1 -> icvpn_augsburg1;
+icvpn_berlin1 -> icvpn_bielefeld1;
+icvpn_bielefeld1 -> icvpn_berlin1;
+icvpn_bielefeld1 -> icvpn_luebeck1;
+icvpn_luebeck1 -> icvpn_bielefeld1;
+icvpn_bielefeld1 -> icvpn_jena1;
+icvpn_jena1 -> icvpn_bielefeld1;
+icvpn_jena1 -> icvpn_kiel3;
+icvpn_kiel3 -> icvpn_jena1;
+icvpn_bielefeld2 -> icvpn_weimar2;
+icvpn_weimar2 -> icvpn_bielefeld2;
+icvpn_augsburg1 -> icvpn_luebeck1;
+icvpn_luebeck1 -> icvpn_augsburg1;
+icvpn_bielefeld2 -> icvpn_bremen2;
+icvpn_bremen2 -> icvpn_bielefeld2;
+icvpn_bielefeld1 -> icvpn_bielefeld2;
+icvpn_bielefeld2 -> icvpn_bielefeld1;
+icvpn_bielefeld2 -> icvpn_jena1;
+icvpn_jena1 -> icvpn_bielefeld2;
+icvpn_halle1 -> icvpn_kiel3;
+icvpn_kiel3 -> icvpn_halle1;
+icvpn_kiel1 -> icvpn_kiel13;
+icvpn_kiel13 -> icvpn_kiel1;
+icvpn_bielefeld2 -> icvpn_kiel3;
+icvpn_kiel3 -> icvpn_bielefeld2;
+icvpn_hamburg05 -> icvpn_weimar2;
+icvpn_weimar2 -> icvpn_hamburg05;
+icvpn_luebeck1 -> icvpn_weimar1;
+icvpn_weimar1 -> icvpn_luebeck1;
+icvpn_augsburg1 -> icvpn_berlin1;
+icvpn_berlin1 -> icvpn_augsburg1;
+icvpn_augsburg1 -> icvpn_bielefeld1;
+icvpn_bielefeld1 -> icvpn_augsburg1;
+icvpn_leipzig2 -> icvpn_luebeck1;
+icvpn_luebeck1 -> icvpn_leipzig2;
+icvpn_jena1 -> icvpn_weimar1;
+icvpn_weimar1 -> icvpn_jena1;
+icvpn_hamburg05 -> icvpn_weimar1;
+icvpn_weimar1 -> icvpn_hamburg05;
+icvpn_berlin1 -> icvpn_luebeck1;
+icvpn_luebeck1 -> icvpn_berlin1;
+icvpn_hamburg01 -> icvpn_weimar1;
+icvpn_weimar1 -> icvpn_hamburg01;
+icvpn_berlin1 -> icvpn_hamburg05;
+icvpn_hamburg05 -> icvpn_berlin1;
+icvpn_weimar1 -> icvpn_weimar2;
+icvpn_weimar2 -> icvpn_weimar1;
+icvpn_gronau2 -> icvpn_kiel3;
+icvpn_kiel3 -> icvpn_gronau2;
+icvpn_kiel3 -> icvpn_kiel4;
+icvpn_kiel4 -> icvpn_kiel3;
+icvpn_jena1 -> icvpn_luebeck2;
+icvpn_luebeck2 -> icvpn_jena1;
+icvpn_luebeck1 -> icvpn_luebeck2;
+icvpn_luebeck2 -> icvpn_luebeck1;
+icvpn_dresden1 -> icvpn_luebeck1;
+icvpn_luebeck1 -> icvpn_dresden1;
+icvpn_dresden1 -> icvpn_koeln1;
+icvpn_koeln1 -> icvpn_dresden1;
+icvpn_hamburg05 -> icvpn_jena1;
+icvpn_jena1 -> icvpn_hamburg05;
+icvpn_kiel3 -> icvpn_koeln1;
+icvpn_koeln1 -> icvpn_kiel3;
+icvpn_hamburg05 -> icvpn_leipzig2;
+icvpn_leipzig2 -> icvpn_hamburg05;
+icvpn_hamburg05 -> icvpn_luebeck2;
+icvpn_luebeck2 -> icvpn_hamburg05;
+icvpn_dresden1 -> icvpn_weimar1;
+icvpn_weimar1 -> icvpn_dresden1;
+icvpn_berlin1 -> icvpn_dresden1;
+icvpn_dresden1 -> icvpn_berlin1;
+icvpn_hamburg01 -> icvpn_jena1;
+icvpn_jena1 -> icvpn_hamburg01;
+icvpn_dresden1 -> icvpn_jena1;
+icvpn_jena1 -> icvpn_dresden1;
+icvpn_hamburg01 -> icvpn_weimar2;
+icvpn_weimar2 -> icvpn_hamburg01;
+icvpn_hamburg01 -> icvpn_kiel4;
+icvpn_kiel4 -> icvpn_hamburg01;
+icvpn_berlin1 -> icvpn_jena1;
+icvpn_jena1 -> icvpn_berlin1;
+icvpn_kiel3 -> icvpn_luebeck2;
+icvpn_luebeck2 -> icvpn_kiel3;
+icvpn_halle1 -> icvpn_luebeck2;
+icvpn_luebeck2 -> icvpn_halle1;
+icvpn_dresden1 -> icvpn_kiel3;
+icvpn_kiel3 -> icvpn_dresden1;
+icvpn_bremen2 -> icvpn_dresden1;
+icvpn_dresden1 -> icvpn_bremen2;
+icvpn_bielefeld1 -> icvpn_hamburg01;
+icvpn_hamburg01 -> icvpn_bielefeld1;
+icvpn_dresden1 -> icvpn_halle2;
+icvpn_halle2 -> icvpn_dresden1;
+icvpn_hamburg01 -> icvpn_kiel3;
+icvpn_kiel3 -> icvpn_hamburg01;
+icvpn_dresden1 -> icvpn_hamburg05;
+icvpn_hamburg05 -> icvpn_dresden1;
+icvpn_dresden1 -> icvpn_hamburg01;
+icvpn_hamburg01 -> icvpn_dresden1;
+icvpn_dresden1 -> icvpn_gronau2;
+icvpn_gronau2 -> icvpn_dresden1;
+icvpn_koeln1 -> icvpn_weimar1;
+icvpn_weimar1 -> icvpn_koeln1;
+icvpn_dresden1 -> icvpn_halle1;
+icvpn_halle1 -> icvpn_dresden1;
+icvpn_koeln1 -> icvpn_oldenburg1;
+icvpn_oldenburg1 -> icvpn_koeln1;
+icvpn_bielefeld1 -> icvpn_dresden1;
+icvpn_dresden1 -> icvpn_bielefeld1;
+icvpn_bielefeld2 -> icvpn_dresden1;
+icvpn_dresden1 -> icvpn_bielefeld2;
+icvpn_augsburg1 -> icvpn_dresden1;
+icvpn_dresden1 -> icvpn_augsburg1;
+icvpn_frankfurt1 -> icvpn_kiel3;
+icvpn_kiel3 -> icvpn_leipzig2;
+icvpn_leipzig2 -> icvpn_kiel3;
+icvpn_berlin1 -> icvpn_kiel3;
+icvpn_kiel3 -> icvpn_berlin1;
+icvpn_halle1 -> icvpn_hamburg01;
+icvpn_hamburg01 -> icvpn_halle1;
+layout="twopi"
+}
