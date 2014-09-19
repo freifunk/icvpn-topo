@@ -1,0 +1,2 @@
+#!/bin/sh
+echo "$NODE" >> /var/lib/freifunk/tinc/tinc-icvpn-nodes
