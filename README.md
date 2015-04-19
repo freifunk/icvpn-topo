@@ -19,4 +19,8 @@ diac24.net to diac24_sbz
 Directory example-files contains files that are used to produce output. Please look for the file names
 in script to know where they are used.
 
+Because tinc version 1.1pre10 does not provide dot information anymore, two tinc files must be
+added to tinc configuration. These files collect the peer names which are used by the script to
+generate the graph (without connection between nodes)
+
 
