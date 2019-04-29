@@ -1,10 +1,9 @@
 icvpn-topo
 ==========
 
+current state: not maintained
+
 Topology Graphs about Freifunk Intercity VPN
-
-Live view at http://www.freifunk-dresden.de/topology/ic-vpn-verbindungen.html
-
 
 The script contains several path variables that should be adapted.
 It uses the generated tinc dot file and the bgpd.conf to get needed information.
@@ -18,5 +17,9 @@ diac24.net to diac24_sbz
 
 Directory example-files contains files that are used to produce output. Please look for the file names
 in script to know where they are used.
+
+Because tinc version 1.1pre10 does not provide dot information anymore, two tinc files must be
+added to tinc configuration. These files collect the peer names which are used by the script to
+generate the graph (without connection between nodes)
 
 

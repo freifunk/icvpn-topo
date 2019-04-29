@@ -1,0 +1,2 @@
+#!/bin/sh
+sed -i "/$NODE/d" /var/lib/freifunk/tinc/tinc-icvpn-nodes 
