@@ -1,10 +1,9 @@
 icvpn-topo
 ==========
 
+current state: not maintained
+
 Topology Graphs about Freifunk Intercity VPN
-
-Live view at http://www.freifunk-dresden.de/topology/ic-vpn-verbindungen.html
-
 
 The script contains several path variables that should be adapted.
 It uses the generated tinc dot file and the bgpd.conf to get needed information.
